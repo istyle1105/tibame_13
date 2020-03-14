@@ -3,6 +3,7 @@ package HW1217;
 public abstract class Pen implements IWritable {
 	protected String brand;
 	protected int price;
+	protected int version;
 	
 	public Pen() {
 	}
